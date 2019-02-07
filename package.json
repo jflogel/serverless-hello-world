@@ -1,0 +1,16 @@
+{
+  "name": "serverless-spike",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "deploy": "serverless deploy -p .serverless/serverless-spike.zip",
+    "package": "serverless package",
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chance": "1.0.18"
+  }
+}
